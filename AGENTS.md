@@ -10,7 +10,7 @@
 
 ## Setup Instructions
 
-- Run `hugo server` to preview changes
+- Do not run `scripts\setup.sh`. You can read it for reference to make sure you have all dependencies installed, etc..
 - Codex does not need to build production artifacts, just test preview locally
 
 ## Tasks Codex Can Run
@@ -22,7 +22,7 @@
 
 ## Validation Checklist
 
-- Build with `hugo server` succeeds. 
+- Run `hugo server` to preview changes and ensure that site builds.
 - No broken shortcodes, links, or missing templates
 - Avoid changing images or non-markdown content unless specifically requested
 - Run `vale <filename.md>` to check a given Markdown file `<filename.md>` for style, clarity, passive voice, etc.. Review the Value Usage Guidelines for more info.
@@ -31,6 +31,7 @@
 
 ## Vale Usage Guidelines
 
+- Vale styles are located at at `.github/styles`.
 -`.vale.ini` is the configuration file for Vale at the repo root — this config includes Google, Microsoft, and WriteGood packages
 - Vale is installed using the portable Linux binary
 
