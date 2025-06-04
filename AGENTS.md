@@ -10,7 +10,6 @@
 
 ## Setup Instructions
 
-- Run `scripts/setup.sh` to install Hugo, Go, Node, and dependencies
 - Run `hugo server` to preview changes
 - Codex does not need to build production artifacts, just test preview locally
 
